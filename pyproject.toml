@@ -1,0 +1,29 @@
+[tool.poetry]
+name = "azimov"
+version = "0.1.0"
+description = ""
+authors = ["darthVarada <fafapelegia@hotmail.com>"]
+readme = "README.md"
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.12.7"
+plotly = "^5.24.1"
+ipykernel = "^6.29.5"
+jupyterlab = "^4.2.5"
+nbformat = "^5.10.4"
+pandas = "^2.2.3"
+dash = "^2.18.1"
+jupyter-dash = "^0.4.2"
+dash-bootstrap-components = "^1.6.0"
+dash-bootstrap-templates = "^1.2.4"
+gunicorn = "^23.0.0"
+poetry-plugin-export = "^1.8.0"
+dash-auth = "^2.3.0"
+pyrsistent = "^0.20.0"
+tvdatafeed = {git = "https://github.com/rongardF/tvdatafeed.git"}
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
